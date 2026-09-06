@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePercent | SAP BTP Consulting, Open Source & Learning Ecosystem</title>
+    <meta name="description" content="OnePercent specializes in SAP Business Technology Platform (BTP) consulting, Integration Suite, Joule AI, Cloud Foundry, Kyma, and open-source enterprise solutions.">
+    <meta name="keywords" content="SAP BTP, SAP Integration Suite, SAP Joule AI, Cloud Foundry, Kyma, CAP Model, ABAP RAP, Open Source SAP, SAP Consulting">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://onepercent.co.in/">
+    <meta property="og:title" content="OnePercent | SAP BTP Innovation & Consulting">
+    <meta property="og:description" content="Enterprise SAP BTP Architecture, Open-Source Tools, and Integration Suite Excellence.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons / Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo">
+                <img src="image.png" alt="OnePercent Logo" class="logo-img">
+                <span class="logo-text">OnePercent</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#open-source" class="nav-link">Open Source</a></li>
+                    <li><a href="#learnings" class="nav-link">Learnings</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn btn-primary" id="open-consultation-btn">
+                    <i class='bx bx-briefcase-alt-2'></i> Partner With Us
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class='bx bx-menu-alt-right'></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="badge-dot"></span> SAP BTP Enterprise Specialists
+                    </div>
+                    <h1 class="hero-title">
+                        Architecting & Delivering Modern <span class="text-accent">SAP BTP</span> Ecosystems.
+                    </h1>
+                    <p class="hero-subtitle">
+                        From <strong>SAP Integration Suite</strong> and <strong>Joule AI</strong> to <strong>Cloud Foundry</strong>, <strong>Kyma</strong>, and custom CAP/RAP applications — we build enterprise-grade SAP solutions, contribute open-source tools, and train top-tier talent.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <button class="btn btn-primary btn-lg" id="hero-consultation-btn">
+                            <i class='bx bx-rocket'></i> Start a BTP Project
+                        </button>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="btn btn-outline btn-lg">
+                            <i class='bx bxl-github'></i> Explore Open Source
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-value"><span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span></div>
+                            <span class="stat-label">SAP BTP Native</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value"><span class="stat-number" data-target="25">0</span><span class="stat-plus">+</span></div>
+                            <span class="stat-label">Open Source Repos</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value"><span class="stat-number" data-target="1000">0</span><span class="stat-plus">+</span></div>
+                            <span class="stat-label">Engineers Upskilled</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="btp-node-card visual-center">
+                        <div class="core-node">
+                            <i class='bx bx-chip'></i>
+                            <span>SAP BTP Core</span>
+                        </div>
+                        <div class="pulse-ring"></div>
+                        
+                        <!-- Satellite Nodes -->
+                        <div class="sat-node sat-1" data-info="SAP Integration Suite: CPI, API Mgmt, Event Mesh & Integration Advisor">
+                            <i class='bx bx-git-merge'></i>
+                            <span>Integration Suite</span>
+                        </div>
+                        <div class="sat-node sat-2" data-info="SAP Joule & Generative AI: AI Core, Vector Engines & Smart Agents">
+                            <i class='bx bx-bot'></i>
+                            <span>Joule & AI</span>
+                        </div>
+                        <div class="sat-node sat-3" data-info="Cloud Foundry & Kyma: Microservices, Containers & Native Apps">
+                            <i class='bx bx-cloud'></i>
+                            <span>Cloud Foundry / Kyma</span>
+                        </div>
+                        <div class="sat-node sat-4" data-info="CAP & RAP Frameworks: Node.js, Java, and ABAP Cloud Development">
+                            <i class='bx bx-code-alt'></i>
+                            <span>CAP / RAP Model</span>
+                        </div>
+                        <div class="sat-node sat-5" data-info="Clean Core Extensions: S/4HANA Side-by-Side Extensions">
+                            <i class='bx bx-layer'></i>
+                            <span>Clean Core Ext.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="node-tooltip" id="node-tooltip">
+                        Hover over nodes to explore SAP BTP capabilities.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SAP BTP Stack Section -->
+        <section class="section-padding btp-stack-section" id="btp-stack">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Full Spectrum Expertise</span>
+                    <h2 class="section-title">End-to-End <span class="text-accent">SAP BTP</span> Capabilities</h2>
+                    <p class="section-description">
+                        We leverage SAP's flagship technology platform to modernize legacy environments, automate cross-system workflows, and build cloud-native extensions.
+                    </p>
+                </div>
+
+                <div class="card-grid col-3">
+                    <!-- Capability 1 -->
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class='bx bx-git-repo-forked'></i>
+                        </div>
+                        <h3 class="card-title">SAP Integration Suite</h3>
+                        <p class="card-text">
+                            Cloud Integration (CPI), API Management, Event Mesh, B2B Integration Advisor, and Open Connectors. Seamless enterprise-grade hybrid and cloud integrations.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> CPI iFlows & Groovy Scripting</li>
+                            <li><i class='bx bx-check-circle'></i> Event-Driven Architecture</li>
+                            <li><i class='bx bx-check-circle'></i> Legacy PI/PO to BTP Migration</li>
+                        </ul>
+                    </div>
+
+                    <!-- Capability 2 -->
+                    <div class="feature-card highlighted-card">
+                        <div class="card-badge">Next-Gen AI</div>
+                        <div class="card-icon">
+                            <i class='bx bx-brain'></i>
+                        </div>
+                        <h3 class="card-title">Joule & SAP AI Core</h3>
+                        <p class="card-text">
+                            Embed intelligence across SAP business workflows using SAP Joule, AI Core, Generative AI Hub, and custom AI extensions connected to enterprise data.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> SAP Joule Assistant Integrations</li>
+                            <li><i class='bx bx-check-circle'></i> RAG & Vector Embeddings</li>
+                            <li><i class='bx bx-check-circle'></i> Custom AI Microservices on BTP</li>
+                        </ul>
+                    </div>
+
+                    <!-- Capability 3 -->
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class='bx bx-server'></i>
+                        </div>
+                        <h3 class="card-title">Cloud Foundry & Kyma Runtime</h3>
+                        <p class="card-text">
+                            Scalable multi-cloud environments for modern application development. Deploy Node.js, Java, Python, and Kubernetes workloads natively on SAP BTP.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> Kubernetes & Kyma Containers</li>
+                            <li><i class='bx bx-check-circle'></i> Multi-Tenant SaaS Apps</li>
+                            <li><i class='bx bx-check-circle'></i> Auto-scaling Microservices</li>
+                        </ul>
+                    </div>
+
+                    <!-- Capability 4 -->
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class='bx bx-code-block'></i>
+                        </div>
+                        <h3 class="card-title">CAP & ABAP RAP Frameworks</h3>
+                        <p class="card-text">
+                            Domain-driven cloud programming with SAP Cloud Application Programming Model (CAP) and ABAP RESTful Application Programming (RAP) for ABAP Cloud.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> CDS Modeling & OData V4 APIs</li>
+                            <li><i class='bx bx-check-circle'></i> ABAP Cloud & Steampunk</li>
+                            <li><i class='bx bx-check-circle'></i> SAP Fiori Elements UIs</li>
+                        </ul>
+                    </div>
+
+                    <!-- Capability 5 -->
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class='bx bx-layer-plus'></i>
+                        </div>
+                        <h3 class="card-title">Clean Core Extensibility</h3>
+                        <p class="card-text">
+                            Keep your S/4HANA core clean using SAP BTP side-by-side extensibility. Decouple custom code, reduce upgrade risks, and accelerate innovation.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> Side-by-Side S/4 Extensions</li>
+                            <li><i class='bx bx-check-circle'></i> Event-driven S/4 Triggering</li>
+                            <li><i class='bx bx-check-circle'></i> BTP Build Apps & Process Automation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Capability 6 -->
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class='bx bx-shield-quarter'></i>
+                        </div>
+                        <h3 class="card-title">Security, Auth & DevOps</h3>
+                        <p class="card-text">
+                            Enterprise security with SAP Cloud Identity Services (IAS/IPS), OAuth 2.0, XSUAA, and automated CI/CD pipelines using Project Piper.
+                        </p>
+                        <ul class="card-features">
+                            <li><i class='bx bx-check-circle'></i> BTP IAS/IPS & SSO Configuration</li>
+                            <li><i class='bx bx-check-circle'></i> CI/CD with Project Piper</li>
+                            <li><i class='bx bx-check-circle'></i> Multi-Environment BTP Governance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services & Engagement Models -->
+        <section class="section-padding services-section" id="services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">How We Partner</span>
+                    <h2 class="section-title">SAP BTP <span class="text-accent">Project Services</span></h2>
+                    <p class="section-description">
+                        Whether you need a complete BTP integration strategy, a custom Cloud Foundry microservice, or hands-on team upskilling, we provide tailored engagement models.
+                    </p>
+                </div>
+
+                <div class="card-grid col-3">
+                    <div class="service-box">
+                        <div class="service-num">01</div>
+                        <h3>Enterprise Project Execution</h3>
+                        <p>Turnkey project implementation for SAP BTP architectures. We handle requirements, solution design, development, testing, and deployment.</p>
+                        <a href="#contact" class="link-btn open-modal-trigger">Request Proposal <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-num">02</div>
+                        <h3>BTP Architecture Advisory</h3>
+                        <p>Evaluate your SAP ecosystem, design clean core strategies, optimize Integration Suite costs, and establish robust BTP governance frameworks.</p>
+                        <a href="#contact" class="link-btn open-modal-trigger">Schedule Advisory <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-num">03</div>
+                        <h3>Custom Open Source & Tooling</h3>
+                        <p>Need custom iFlow adapters, CPI utility tools, or CI/CD pipelines? We build tailored, reusable BTP developer tools for your team.</p>
+                        <a href="#open-source" class="link-btn">Explore Repos <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Source Hub Section -->
+        <section class="section-padding open-source-section" id="open-source">
+            <div class="container">
+                <div class="section-header text-between">
+                    <div>
+                        <span class="section-badge"><i class='bx bxl-github'></i> Open Source Initiatives</span>
+                        <h2 class="section-title">OnePercent <span class="text-accent">Open Source</span> Hub</h2>
+                        <p class="section-description">
+                            We actively publish open-source utilities, Groovy libraries, BTP sample code, and accelerators on GitHub.
+                        </p>
+                    </div>
+                    <div class="header-link-wrapper">
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="btn btn-outline">
+                            <i class='bx bxl-github'></i> Visit github.com/onepercent-solutions
+                        </a>
+                    </div>
+                </div>
+
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="integration">Integration Suite</button>
+                    <button class="filter-btn" data-filter="cap">CAP & ABAP</button>
+                    <button class="filter-btn" data-filter="ai">Joule & AI</button>
+                </div>
+
+                <div class="card-grid col-3" id="repo-grid">
+                    <!-- Repo 1 -->
+                    <div class="repo-card" data-category="integration">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-code-curly'></i></div>
+                            <span class="repo-tag">Integration Suite</span>
+                        </div>
+                        <h3 class="repo-title">btp-cpi-groovy-toolkit</h3>
+                        <p class="repo-desc">Collection of reusable, production-ready Groovy scripts for SAP Cloud Integration iFlows (Logging, Token Handling, Payload Transformation).</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 48 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 19 forks</span>
+                            <span class="repo-lang"><span class="lang-dot groovy"></span> Groovy</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <!-- Repo 2 -->
+                    <div class="repo-card" data-category="integration">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-transfer-alt'></i></div>
+                            <span class="repo-tag">Integration Suite</span>
+                        </div>
+                        <h3 class="repo-title">btp-event-mesh-connector</h3>
+                        <p class="repo-desc">Lightweight wrapper library for consuming and producing SAP Event Mesh messages seamlessly in Node.js and CAP services.</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 35 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 12 forks</span>
+                            <span class="repo-lang"><span class="lang-dot ts"></span> TypeScript</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <!-- Repo 3 -->
+                    <div class="repo-card" data-category="ai">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-bot'></i></div>
+                            <span class="repo-tag">Joule & AI</span>
+                        </div>
+                        <h3 class="repo-title">joule-custom-extension-boilerplate</h3>
+                        <p class="repo-desc">Starter template for building custom SAP Joule extensions with BTP Destination services and SAP AI Core connectivity.</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 52 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 24 forks</span>
+                            <span class="repo-lang"><span class="lang-dot js"></span> JavaScript</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <!-- Repo 4 -->
+                    <div class="repo-card" data-category="cap">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-cube-alt'></i></div>
+                            <span class="repo-tag">CAP & ABAP</span>
+                        </div>
+                        <h3 class="repo-title">cap-multitenant-template</h3>
+                        <p class="repo-desc">Best-practice SAP CAP (Cloud Application Programming) multi-tenant boilerplate with SaaS provisioning and MTX integration.</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 61 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 28 forks</span>
+                            <span class="repo-lang"><span class="lang-dot cds"></span> CDS / Node</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <!-- Repo 5 -->
+                    <div class="repo-card" data-category="integration">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-slider-alt'></i></div>
+                            <span class="repo-tag">Integration Suite</span>
+                        </div>
+                        <h3 class="repo-title">cpi-automated-testing-framework</h3>
+                        <p class="repo-desc">Automated unit and integration testing framework for CPI iFlows using Postman, Newman, and BTP CI/CD pipelines.</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 41 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 15 forks</span>
+                            <span class="repo-lang"><span class="lang-dot json"></span> Postman/CLI</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <!-- Repo 6 -->
+                    <div class="repo-card" data-category="cap">
+                        <div class="repo-header">
+                            <div class="repo-icon"><i class='bx bx-terminal'></i></div>
+                            <span class="repo-tag">CAP & ABAP</span>
+                        </div>
+                        <h3 class="repo-title">abap-cloud-rap-samples</h3>
+                        <p class="repo-desc">Curated ABAP RESTful Application Programming model samples for S/4HANA Cloud and SAP BTP ABAP Environment (Steampunk).</p>
+                        <div class="repo-meta">
+                            <span><i class='bx bx-star'></i> 39 stars</span>
+                            <span><i class='bx bx-git-repo-forked'></i> 14 forks</span>
+                            <span class="repo-lang"><span class="lang-dot abap"></span> ABAP Cloud</span>
+                        </div>
+                        <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" class="repo-link">View Repository <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learnings & Training Platform Callout -->
+        <section class="section-padding learnings-section" id="learnings">
+            <div class="container">
+                <div class="learnings-banner">
+                    <div class="banner-content">
+                        <div class="badge-pill light">
+                            <i class='bx bx-certification'></i> OnePercent Learning Platform
+                        </div>
+                        <h2>Master SAP BTP Integration Suite & Cloud Technologies</h2>
+                        <p>
+                            Accelerate your career and upskill your development team with hands-on, scenario-driven courses. Built by engineers who implement SAP BTP in production every day.
+                        </p>
+                        
+                        <div class="banner-highlights">
+                            <div class="bh-item">
+                                <i class='bx bx-check-shield'></i>
+                                <span>Real-World CPI Scenarios</span>
+                            </div>
+                            <div class="bh-item">
+                                <i class='bx bx-check-shield'></i>
+                                <span>Hands-on BTP Labs</span>
+                            </div>
+                            <div class="bh-item">
+                                <i class='bx bx-check-shield'></i>
+                                <span>Community & Certification Guidance</span>
+                            </div>
+                        </div>
+
+                        <div class="banner-cta">
+                            <a href="https://learnings.onepercent.co.in" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                                <i class='bx bx-rocket'></i> Explore Learnings Platform <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <span class="portal-link-sub">Visit learnings.onepercent.co.in</span>
+                        </div>
+                    </div>
+                    <div class="banner-graphic">
+                        <div class="graphic-card">
+                            <div class="gc-header">
+                                <span class="gc-dot red"></span>
+                                <span class="gc-dot yellow"></span>
+                                <span class="gc-dot green"></span>
+                                <span class="gc-title">CPI iFlow Mastery</span>
+                            </div>
+                            <pre class="gc-code"><code>// Groovy Script: SAP BTP CPI Logger
+import com.sap.gateway.ip.core.customdev.util.Message;
+
+def Message processData(Message message) {
+    def body = message.getBody(String);
+    def log = messageLogFactory.getMessageLog(message);
+    log.addAttachmentAsString("PayloadLog", body, "text/plain");
+    return message;
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Contact Section -->
+        <section class="section-padding cta-section" id="contact-section">
+            <div class="container text-center">
+                <div class="cta-box">
+                    <h2>Ready to Elevate Your <span class="text-accent">SAP BTP Strategy</span>?</h2>
+                    <p>Contact our technical team to discuss project requirements, architecture reviews, or open-source collaborations.</p>
+                    <button class="btn btn-primary btn-lg open-modal-trigger">
+                        <i class='bx bx-paper-plane'></i> Initiate Project Discussion
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo">
+                    <img src="image.png" alt="OnePercent Logo" class="logo-img">
+                    <span class="logo-text">OnePercent</span>
+                </a>
+                <p class="footer-desc">
+                    Specialized SAP Business Technology Platform solutions, open-source innovations, and enterprise learning.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://learnings.onepercent.co.in" target="_blank" rel="noopener" aria-label="Academy"><i class='bx bx-book-open'></i></a>
+                    <a href="https://www.linkedin.com/company/onepercentlearning" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>SAP BTP Domains</h4>
+                <ul>
+                    <li><a href="#btp-stack">Integration Suite</a></li>
+                    <li><a href="#btp-stack">Joule & AI Core</a></li>
+                    <li><a href="#btp-stack">Cloud Foundry & Kyma</a></li>
+                    <li><a href="#btp-stack">CAP & ABAP RAP</a></li>
+                    <li><a href="#btp-stack">Clean Core Extensions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Ecosystem</h4>
+                <ul>
+                    <li><a href="https://github.com/orgs/onepercent-solutions" target="_blank" rel="noopener">GitHub Organization</a></li>
+                    <li><a href="https://learnings.onepercent.co.in" target="_blank" rel="noopener">Learnings Platform</a></li>
+                    <li><a href="#services">Client Project Services</a></li>
+                    <li><a href="#open-source">Open Source Tools</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class='bx bx-envelope'></i> <a href="mailto:contact@onepercent.co.in">contact@onepercent.co.in</a></li>
+                    <li><i class='bx bx-globe'></i> onepercent.co.in</li>
+                    <li><i class='bx bx-map-pin'></i> Enterprise SAP Solutions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 OnePercent Solutions. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Consultation Modal -->
+    <div class="modal-overlay" id="consultation-modal">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close modal"><i class='bx bx-x'></i></button>
+            <div class="modal-header">
+                <h3>Start an <span class="text-accent">SAP BTP Project</span></h3>
+                <p>Tell us about your requirements and our technical architect will get in touch.</p>
+            </div>
+            
+            <form id="consultation-form" class="modal-form">
+                <div class="form-group">
+                    <label for="client-name">Full Name *</label>
+                    <input type="text" id="client-name" required placeholder="e.g. Alex Morgan">
+                </div>
+
+                <div class="form-group">
+                    <label for="client-email">Work Email *</label>
+                    <input type="email" id="client-email" required placeholder="alex@company.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="btp-domain">Primary BTP Focus Area *</label>
+                    <select id="btp-domain" required>
+                        <option value="" disabled selected>Select a BTP area</option>
+                        <option value="integration-suite">SAP Integration Suite (CPI / API Mgmt / Event Mesh)</option>
+                        <option value="joule-ai">Joule AI & SAP AI Core</option>
+                        <option value="cloud-foundry-kyma">Cloud Foundry / Kyma Microservices</option>
+                        <option value="cap-rap">CAP or ABAP RAP Cloud Development</option>
+                        <option value="clean-core">S/4HANA Clean Core Extensions</option>
+                        <option value="custom-open-source">Custom Tooling / Open Source Collaboration</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="project-notes">Project Description / Scope</label>
+                    <textarea id="project-notes" rows="4" placeholder="Briefly describe your objectives, timelines, or current landscape..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class='bx bx-send'></i> Submit Project Proposal Request
+                </button>
+            </form>
+
+            <div class="form-success" id="form-success-msg" style="display: none;">
+                <i class='bx bx-check-circle success-icon'></i>
+                <h4>Thank You!</h4>
+                <p>Your SAP BTP project inquiry has been recorded. Our architecture team will respond within 24 hours.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
